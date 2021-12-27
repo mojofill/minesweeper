@@ -8,7 +8,7 @@ class Main {
         window.setSize(new Dimension(800, 700));
         
         Canvas canvas = new Canvas();
-        int board_size = 20;
+        int board_size = 18;
 
         Game game = new Game(canvas, board_size);
 
